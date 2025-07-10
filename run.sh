@@ -13,7 +13,7 @@ deno run \
   --v8-flags=--max-old-space-size=16384 \
   --allow-read --allow-write --allow-net \
   src/Learn.ts \
-  --timeout=15 \
+  --timeout=10 \
   --dir=./creatures \
   --verbose=true 
 
