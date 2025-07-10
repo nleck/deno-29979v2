@@ -1,0 +1,8 @@
+# Ignore invisible
+.*
+*~
+!.gitignore
+logback.log
+!.github
+deno.lock
+!.cursor.json
