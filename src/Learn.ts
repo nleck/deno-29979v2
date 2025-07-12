@@ -39,7 +39,7 @@ const options: NeatOptions = {
   targetError: 0.002,
   populationSize: 50,
   trainingSampleRate: 0.01,
-  discoverySampleRate: 0.05,
+  discoverySampleRate: 0.025,
   sparseRatio:0.075,
   log: 1,
   verbose: true
