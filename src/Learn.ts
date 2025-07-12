@@ -38,7 +38,8 @@ const options: NeatOptions = {
   timeoutMinutes: args.timeout ? Math.max(args.timeout, 1) : 60,
   targetError: 0.002,
   populationSize: 50,
-  trainingSampleRate: 0.1,
+  trainingSampleRate: 0.01,
+  discoverySampleRate: 0.05,
   sparseRatio:0.075,
   log: 1,
   verbose: true
