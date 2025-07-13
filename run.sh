@@ -10,7 +10,7 @@ echo -n "Starting... "
 date
 
 deno run \
-  --v8-flags=--max-old-space-size=16384 \
+  --v8-flags=--max-old-space-size=10240 \
   --allow-read --allow-write --allow-net \
   src/Learn.ts \
   --timeout=10 \
